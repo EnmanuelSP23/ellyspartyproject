@@ -1,0 +1,111 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "Hero": {
+    "title": "Making Every Celebration Unforgettable!",
+    "badge": "Bounce Houses, Water Slides, Tents, Tables, Chairs & Party Rentals serving Lynn, Lynnfield, Peabody, Salem, Saugus, Revere, Beverly, Danvers and surrounding Massachusetts areas.",
+    "button": "View Catalog"
+  },
+  "Welcome": {
+    "title": "Welcome to EPR – Elly’s Party Rental!",
+    "text1": "At EPR – Elly’s Party Rental, we believe every celebration deserves to be special. Whether you’re planning a birthday party, family gathering, school event, church celebration or community festival, we’re here to make your event easy, fun and stress-free. Our goal is simple: help families create unforgettable memories.",
+    "text2": "To make this happen, we always provide",
+    "highlight2": "clean, sanitized equipment",
+    "text3": ", guaranteeing a",
+    "highlight3": "dependable delivery",
+    "text4": ", professional setup, and friendly customer service to build",
+    "highlight1": "unforgettable experiences."
+  },
+  "Categories": {
+    "title": "Our Categories",
+    "cat1": {
+      "title": "Bouncy Houses & Slides",
+      "desc": "Guaranteed bouncing fun."
+    },
+    "cat2": {
+      "title": "Pool & Water",
+      "desc": "Water slides to cool down your party."
+    },
+    "cat3": {
+      "title": "Chairs & Tables",
+      "desc": "All the comfort for your guests."
+    },
+    "cat4": {
+      "title": "Party Add-ons",
+      "desc": "Popcorn machines, cotton candy and more."
+    }
+  },
+  "Steps": {
+    "sectionTitle": "How It Works?",
+    "step1": {
+      "title": "Choose Your Rental",
+      "desc": "Browse our inventory and select the items you’d like for your event."
+    },
+    "step2": {
+      "title": "Request a Quote",
+      "desc": "Call, text or send us a message with your event date, location and the items you need."
+    },
+    "step3": {
+      "title": "Reserve Your Date!",
+      "desc": "A deposit secures your reservation."
+    },
+    "step4": {
+      "title": "We Deliver & Set Up",
+      "desc": "Our team delivers everything on time, sets it up safely and makes sure everything is ready before your event begins."
+    },
+    "step5": {
+      "title": "Enjoy Your Party",
+      "desc": "Have fun while we take care of the equipment."
+      }
+    },
+    "About": {
+    "title": "Our Story",
+    "description": "EPR – Elly’s Party Rental was created with one purpose: helping families celebrate life’s special moments without the stress of planning everything on their own. As a family-owned business based in Lynn, Massachusetts, we take pride in providing clean equipment, honest pricing and dependable service. Every rental is prepared with care because we know your event matters. We don’t just rent party equipment—we help create memories that last a lifetime.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To bring safe, clean, and on-time fun to every home and celebration."
+   },
+   "ServiceArea": {
+    "title": "We proudly serve:",
+    "subtitle": "We deliver the fun and the best inflatables directly to your event in the following areas of Massachusetts:",
+    "cities": "Lynn, Lynnfield, Peabody, Salem, Beverly, Danvers, Saugus, Revere, Nahant, Swampscott, Wakefield, Reading, North Reading, Middleton, Wenham, Hamilton.",
+    "notice": "Delivery available to surrounding areas."
+  },
+  "Footer": {
+    "desc": "Bringing the ultimate fun and safety to your events throughout Massachusetts.",
+    "hoursTitle": "Working Hours",
+    "weekdays": "Monday to Friday: 9:00 AM - 6:00 PM",
+    "weekends": "Saturdays and Sundays: 8:00 AM - 7:00 PM",
+    "contactTitle": "Contact & Socials",
+    "rights": "© 2026 Elly's Party Rental. All rights reserved."
+  },
+  "Faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "We answer your questions so you only have to worry about enjoying the party.",
+    "q1": "Is a deposit required?",
+    "a1": "Yes. A deposit is required to reserve your date.",
+    "q2": "When is the remaining balance due?",
+    "a2": "The remaining balance is due before or at delivery.",
+    "q3": "Do you deliver?",
+    "a3": "Yes. Delivery fees vary depending on location.",
+    "q4": "Are your inflatables cleaned?",
+    "a4": "Absolutely. Every inflatable is cleaned and sanitized before each rental.",
+    "q5": "Can the bounce houses be used with water?",
+    "a5": "Some units can be used wet or dry. Check the product description.",
+    "q6": "What if it rains?",
+    "a6": "We’ll work with you to reschedule whenever possible."
+  },
+  "ContactPage": {
+    "title": "Contact us today!",
+    "subtitle": "We are ready to help you plan your next event.",
+    "phoneLabel": "DIRECT PHONE",
+    "emailLabel": "EMAIL ADDRESS",
+    "coverageLabel": "Socials",
+    "coverageValue": "Instagram, Facebook",
+    "securityNote": "Contact Us!"
+  }
+  
+}

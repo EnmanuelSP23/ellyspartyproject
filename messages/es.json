@@ -1,0 +1,111 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "contact": "Contáctanos"
+  },
+  "Hero": {
+    "title": "¡Hacemos que cada celebración sea inolvidable!",
+    "badge": "Bounce Houses, Water Slides, Tents, Tables, Chairs & Party Rentals serving Lynn, Lynnfield, Peabody, Salem, Saugus, Revere, Beverly, Danvers and surrounding Massachusetts areas.",
+    "button": "Ver Catálogo"
+  },
+  "Welcome": {
+    "title": "¡Bienvenidos a EPR – Elly’s Party Rental!",
+    "text1": "Creemos que cada celebración merece ser especial. Ya sea que estés planeando una fiesta de cumpleaños, una reunión familiar, un evento escolar, una celebración de la iglesia o un festival comunitario, estamos aquí para hacer que tu evento sea fácil, divertido y sin estrés. Nuestro objetivo es simple: ayudar a las familias a crear recuerdos inolvidables.",
+    "text2": "Para lograrlo, proveemos siempre equipos",
+    "highlight2": "limpios y desinfectados",
+    "text3": ", garantizando una entrega",
+    "highlight3": "confiable y puntual",
+    "text4": ", instalación profesional y un servicio al cliente amigable para construir",
+    "highlight1": "experiencias inolvidables."
+  },
+  "Categories": {
+    "title": "Nuestras Categorías",
+    "cat1": {
+      "title": "Bouncy Houses & Slides",
+      "desc": "Diversión saltarina garantizada."
+    },
+    "cat2": {
+      "title": "Pool & Water",
+      "desc": "Toboganes acuáticos para refrescar tu fiesta."
+    },
+    "cat3": {
+      "title": "Sillas y Mesas",
+      "desc": "Todo el confort para tus invitados."
+    },
+    "cat4": {
+      "title": "Party Add-ons",
+      "desc": "Máquinas de palomitas, algodón de azúcar y más."
+    }
+  },
+  "Steps": {
+    "sectionTitle": "¿Cómo reservar tu servicio?",
+    "step1": {
+      "title": "Explora el Catálogo",
+      "desc": "Revisa nuestra variedad de inflables y mobiliario con sus respectivas medidas."
+    },
+    "step2": {
+      "title": "Contáctanos",
+      "desc": "Llámanos o envíanos un correo para verificar disponibilidad en tu zona de Massachusetts."
+    },
+    "step3": {
+      "title": "¡A Disfrutar!",
+      "desc": "Nosotros nos encargamos del transporte, instalación segura y recogida puntual."
+    },
+    "step4": {
+      "title": "Entrega e Instalación",
+      "desc": "Nuestro equipo entrega todo a tiempo, lo instala de forma segura y se asegura de que todo esté listo antes de que comience tu evento."
+    },
+    "step5": {
+      "title": "Disfruta de tu Fiesta",
+      "desc": "Diviértete al máximo mientras nosotros nos encargamos de todo el equipo."
+      }
+
+ },
+  "About": {
+    "title": "Nuestra Historia",
+    "description": "EPR – Elly’s Party Rental nació con un solo propósito: ayudar a las familias a celebrar los momentos más especiales de la vida, sin el estrés de tener que planear todo por su cuenta. Como empresa familiar con sede en Lynn, Massachusetts, nos enorgullece ofrecer equipos limpios, precios justos y un servicio confiable. Preparamos cada renta con mucho esmero porque sabemos que tu evento es muy importante. No solo rentamos equipo para fiestas; ayudamos a crear recuerdos que duren toda la vida.",
+    "missionTitle": "Nuestra Misión",
+    "missionDesc": "Llevar diversión segura, limpia y a tiempo a cada hogar y celebración."
+  },
+  "ServiceArea": {
+    "title": "Nos enorgullece brindar servicio en: ",
+    "subtitle": "Llevamos la diversión y los mejores inflables directamente a tu evento en las siguientes zonas de Massachusetts:",
+    "cities": "Lynn, Lynnfield, Peabody, Salem, Beverly, Danvers, Saugus, Revere, Nahant, Swampscott, Wakefield, Reading, North Reading, Middleton, Wenham, Hamilton.",
+    "notice": "Entrega a domilicio a zonas cercanas."
+  },
+  "Footer": {
+    "desc": "Llevando la máxima diversión y seguridad a tus eventos en todo Massachusetts.",
+    "hoursTitle": "Horario de Trabajo",
+    "weekdays": "Lunes a Viernes: 9:00 AM - 6:00 PM",
+    "weekends": "Sábados y Domingos: 8:00 AM - 7:00 PM",
+    "contactTitle": "Contacto y Redes",
+    "rights": "© 2026 Elly's Party Rental. Todos los derechos reservados."
+  },
+  "Faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Resolvemos todas tus dudas para que solo te preocupes por disfrutar de la fiesta.",
+    "q1": "¿Se requiere un depósito?",
+    "a1": "Sí. Se requiere un depósito para asegurar y reservar tu fecha.",
+    "q2": "¿Cuándo se paga el saldo restante?",
+    "a2": "El saldo restante se debe pagar antes o en el momento de la entrega.",
+    "q3": "¿Hacen entregas a domicilio?",
+    "a3": "Sí. Los cargos por entrega varían según la ubicación del evento.",
+    "q4": "¿Se limpian los inflables?",
+    "a4": "Absolutamente. Cada inflable se limpia y desinfecta minuciosamente antes de cada alquiler.",
+    "q5": "¿Se pueden usar las casas inflables con agua?",
+    "a5": "Algunas unidades se pueden usar mojadas o secas. Por favor, verifica la descripción detallada del producto.",
+    "q6": "¿Qué pasa si llueve?",
+    "a6": "Trabajaremos contigo para reprogramar el evento siempre que sea posible."
+  },
+  "ContactPage": {
+    "title": "¡Contáctanos hoy!",
+    "subtitle": "Estamos listos para ayudarte a planificar tu próximo evento.",
+    "phoneLabel": "TELÉFONO DIRECTO",
+    "emailLabel": "CORREO ELECTRÓNICO",
+    "coverageLabel": "Redes Sociales",
+    "coverageValue": "Instagram, Facebook",
+    "securityNote": "Contacta Ya!"
+  }
+}
