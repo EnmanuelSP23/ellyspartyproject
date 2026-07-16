@@ -20,7 +20,7 @@ export default async function HomePage({ params }: HomePageProps) {
       {/* SECCIÓN HERO */}
       <section className="relative w-full bg-gray-900 text-white py-32 px-4 text-center overflow-hidden">
         <Image 
-          src="/inventario/hero-bg.jpg"
+          src="/inventario/tobogan1-a.jpg"
           alt="Hero Background" 
           fill 
           priority 

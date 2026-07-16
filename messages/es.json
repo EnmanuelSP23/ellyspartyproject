@@ -60,9 +60,8 @@
     "step5": {
       "title": "Disfruta de tu Fiesta",
       "desc": "Diviértete al máximo mientras nosotros nos encargamos de todo el equipo."
-      }
-
- },
+    }
+  },
   "About": {
     "title": "Nuestra Historia",
     "description": "EPR – Elly’s Party Rental nació con un solo propósito: ayudar a las familias a celebrar los momentos más especiales de la vida, sin el estrés de tener que planear todo por su cuenta. Como empresa familiar con sede en Lynn, Massachusetts, nos enorgullece ofrecer equipos limpios, precios justos y un servicio confiable. Preparamos cada renta con mucho esmero porque sabemos que tu evento es muy importante. No solo rentamos equipo para fiestas; ayudamos a crear recuerdos que duren toda la vida.",
@@ -73,7 +72,7 @@
     "title": "Nos enorgullece brindar servicio en: ",
     "subtitle": "Llevamos la diversión y los mejores inflables directamente a tu evento en las siguientes zonas de Massachusetts:",
     "cities": "Lynn, Lynnfield, Peabody, Salem, Beverly, Danvers, Saugus, Revere, Nahant, Swampscott, Wakefield, Reading, North Reading, Middleton, Wenham, Hamilton.",
-    "notice": "Entrega a domilicio a zonas cercanas."
+    "notice": "Entrega a domicilio a zonas cercanas."
   },
   "Footer": {
     "desc": "Llevando la máxima diversión y seguridad a tus eventos en todo Massachusetts.",
@@ -107,5 +106,116 @@
     "coverageLabel": "Redes Sociales",
     "coverageValue": "Instagram, Facebook",
     "securityNote": "Contacta Ya!"
+  },
+  "Services": {
+    "title": "Nuestro Catálogo de Inventario",
+    "subtitle": "Selecciona una categoría para explorar los tamaños disponibles, precios y detalles de nuestros equipos sanitizados.",
+    "exploreBtn": "Explora nuestra variedad",
+    "categories": {
+      "bouncy": {
+        "title": "Castillos Inflables y Combos",
+        "desc": "Casas inflables divertidas (Bounce Houses) y combinaciones interactivas secas o con agua (Wet & Dry Combos)."
+      },
+      "water": {
+        "title": "Diversión de Agua y Espuma",
+        "desc": "Toboganes de agua espectaculares (Water Slides) y la increíble experiencia de fiesta de espuma (Foam Party)."
+      },
+      "chairs": {
+        "title": "Carpas, Mesas y Sillas",
+        "desc": "Carpas (Tents), mesas, sillas y mantelería fina (Table Linens) de alta calidad para acomodar a tus invitados."
+      },
+      "addons": {
+        "title": "Snacks, Máquinas y Paquetes",
+        "desc": "Máquinas de palomitas de maíz, algodón de azúcar, raspados (Snow Cone) y paquetes completos de fiesta (Party Packages)."
+      }
+    }
+  },
+  "CategoryDetail": {
+    "backBtn": "Volver a Categorías",
+    "subtitle": "Explora nuestro inventario disponible en Massachusetts con precios transparentes.",
+    "quoteBtn": "Cotizar este Producto",
+    "sizeLabel": "Medidas / Tipo",
+    "categories": {
+      "bouncy-houses": {
+        "title": "Castillos Inflables y Combos",
+        "items": {
+          "bounce": {
+            "name": "Casas Inflables (Bounce Houses)",
+            "size": "Estándar / Varios tamaños",
+            "desc": "Espaciosos castillos inflables clásicos, ideales para saltar con total seguridad."
+          },
+          "combos": {
+            "name": "Combos Húmedos y Secos (Wet & Dry)",
+            "size": "Grande / Con tobogán",
+            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          }
+        }
+      },
+      "pool-water": {
+        "title": "Diversión de Agua y Espuma",
+        "items": {
+          "slides": {
+            "name": "Toboganes de Agua (Water Slides)",
+            "size": "Alturas variables",
+            "desc": "Toboganes gigantes con alberca de agua para refrescar los días más calurosos."
+          },
+          "foam": {
+            "name": "Fiesta de Espuma (Foam Party)",
+            "size": "Servicio por horas",
+            "desc": "Una increíble experiencia llena de espuma no tóxica y música para todas las edades."
+          }
+        }
+      },
+      "sillas-mesas": {
+        "title": "Carpas, Mesas y Sillas",
+        "items": {
+          "tents": {
+            "name": "Carpas",
+            "size": "20x20, 20x30 y más",
+            "desc": "Estructuras elegantes y resistentes para proteger a tus invitados del sol o la lluvia."
+          },
+          "tables": {
+            "name": "Mesas de Banquete",
+            "size": "Redondas y Rectangulares",
+            "desc": "Mesas sólidas e higienizadas listas para la distribución de tu banquete."
+          },
+          "chairs": {
+            "name": "Sillas Plegables",
+            "size": "Resistencia estándar",
+            "desc": "Sillas cómodas, limpias y listas para acomodar a tus invitados de forma óptima."
+          },
+          "linens": {
+            "name": "Mantelería Fina",
+            "size": "Varios colores y telas",
+            "desc": "Manteles lavados y planchados profesionalmente para vestir tus mesas con elegancia."
+          }
+        }
+      },
+      "party-add-ons": {
+        "title": "Snacks, Máquinas y Paquetes",
+        "items": {
+          "popcorn": {
+            "name": "Máquina de Palomitas (Popcorn)",
+            "size": "Modelo comercial / de mesa",
+            "desc": "Palomitas calientes y frescas con el aroma clásico del cine. Incluye insumos iniciales."
+          },
+          "cotton": {
+            "name": "Máquina de Algodón de Azúcar",
+            "size": "Fácil de operar",
+            "desc": "Prepara algodones de azúcar suaves y dulces que fascinarán a los niños."
+          },
+          "snow": {
+            "name": "Máquina de Raspados (Snow Cone)",
+            "size": "Hielo triturado rápido",
+            "desc": "Refrescantes raspados de sabores ideales para complementar los días de verano."
+          },
+          "packages": {
+            "name": "Paquetes de Fiesta (Party Packages)",
+            "size": "Personalizado",
+            "desc": "Combina inflables, mobiliario y máquinas de snacks a un precio especial con descuento."
+          }
+        }
+      }
+    }
   }
 }

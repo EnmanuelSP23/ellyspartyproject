@@ -1,31 +1,38 @@
-// src/app/servicios/page.tsx
 import Link from 'next/link';
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
-export default function ServiciosPage() {
+interface ServiciosPageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export default async function ServiciosPage({ params }: ServiciosPageProps) {
+  const { locale } = await params;
+  const t = await getTranslations('Services');
+
   const categorias = [
     {
       id: 'bouncy-houses',
-      title: 'Bouncy Houses & Slides',
-      desc: 'Castillos inflables y combinados llenos de adrenalina y saltos.',
-      img: '/inventario/casainflable.jpg'
+      title: t('categories.bouncy.title'),
+      desc: t('categories.bouncy.desc'),
+      img: '/inventario/tobogan2.jpg'
     },
     {
       id: 'pool-water',
-      title: 'Pool & Water',
-      desc: 'Toboganes de agua espectaculares para refrescar cualquier fiesta veraniega.',
-      img: '/inventario/tobogan.jpg'
+      title: t('categories.water.title'),
+      desc: t('categories.water.desc'),
+      img: '/inventario/tobogan-a1.jpg'
     },
     {
       id: 'sillas-mesas',
-      title: 'Sillas y Mesas',
-      desc: 'Mobiliario cómodo, limpio y resistente para todos tus invitados.',
-      img: '/inventario/chairs&tables.jpg'
+      title: t('categories.chairs.title'),
+      desc: t('categories.chairs.desc'),
+      img: '/inventario/Sillas.jpg'
     },
     {
       id: 'party-add-ons',
-      title: 'Party Add-ons',
-      desc: 'Máquinas de snacks y complementos ideales para cerrar con broche de oro.',
+      title: t('categories.addons.title'),
+      desc: t('categories.addons.desc'),
       img: '/inventario/maquinas.jpg'
     }
   ];
@@ -33,16 +40,19 @@ export default function ServiciosPage() {
   return (
     <main className="bg-gray-50 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-4">Nuestro Catálogo de Inventario</h1>
+        {/* Título principal traducido */}
+        <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-4">
+          {t('title')}
+        </h1>
+        {/* Descripción traducida */}
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Selecciona una categoría para explorar los tamaños disponibles, precios y detalles de nuestros equipos sanitizados.
+          {t('subtitle')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {categorias.map((cat) => (
             <div key={cat.id} className="bg-white rounded-3xl shadow-md overflow-hidden border border-gray-100 flex flex-col sm:flex-row hover:shadow-xl transition-all group">
               <div className="sm:w-1/2 h-52 sm:h-auto relative overflow-hidden">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <Image 
                   src={cat.img} 
                   alt={cat.title} 
@@ -55,11 +65,12 @@ export default function ServiciosPage() {
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">{cat.title}</h3>
                   <p className="text-gray-500 text-sm mb-6">{cat.desc}</p>
                 </div>
+                {/* Enlace corregido para mantener el idioma activo en la URL */}
                 <Link 
-                  href={`/servicios/${cat.id}`}
+                  href={`/${locale}/servicios/${cat.id}`}
                   className="block text-center bg-blue-600 text-white font-semibold py-3 px-4 rounded-xl text-sm hover:bg-pink-600 transition-colors"
                 >
-                  Explora nuestra variedad
+                  {t('exploreBtn')}
                 </Link>
               </div>
             </div>

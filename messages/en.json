@@ -60,15 +60,15 @@
     "step5": {
       "title": "Enjoy Your Party",
       "desc": "Have fun while we take care of the equipment."
-      }
-    },
-    "About": {
+    }
+  },
+  "About": {
     "title": "Our Story",
     "description": "EPR – Elly’s Party Rental was created with one purpose: helping families celebrate life’s special moments without the stress of planning everything on their own. As a family-owned business based in Lynn, Massachusetts, we take pride in providing clean equipment, honest pricing and dependable service. Every rental is prepared with care because we know your event matters. We don’t just rent party equipment—we help create memories that last a lifetime.",
     "missionTitle": "Our Mission",
     "missionDesc": "To bring safe, clean, and on-time fun to every home and celebration."
-   },
-   "ServiceArea": {
+  },
+  "ServiceArea": {
     "title": "We proudly serve:",
     "subtitle": "We deliver the fun and the best inflatables directly to your event in the following areas of Massachusetts:",
     "cities": "Lynn, Lynnfield, Peabody, Salem, Beverly, Danvers, Saugus, Revere, Nahant, Swampscott, Wakefield, Reading, North Reading, Middleton, Wenham, Hamilton.",
@@ -106,6 +106,116 @@
     "coverageLabel": "Socials",
     "coverageValue": "Instagram, Facebook",
     "securityNote": "Contact Us!"
+  },
+  "Services": {
+    "title": "Our Inventory Catalog",
+    "subtitle": "Select a category to explore available sizes, pricing, and details of our sanitized equipment.",
+    "exploreBtn": "Explore our variety",
+    "categories": {
+      "bouncy": {
+        "title": "Bounce Houses & Combos",
+        "desc": "Exciting bounce houses and interactive wet & dry combo units for all ages."
+      },
+      "water": {
+        "title": "Water & Foam Fun",
+        "desc": "Spectacular water slides and the ultimate foam party experience to beat the heat."
+      },
+      "chairs": {
+        "title": "Tents, Tables & Chairs",
+        "desc": "Premium tents, tables, chairs, and elegant table linens to accommodate all your guests."
+      },
+      "addons": {
+        "title": "Snacks, Machines & Packages",
+        "desc": "Popcorn, cotton candy, snow cone machines, and custom complete party packages."
+      }
+    }
+  },
+  "CategoryDetail": {
+    "backBtn": "Back to Categories",
+    "subtitle": "Explore our available inventory in Massachusetts with transparent pricing.",
+    "quoteBtn": "Get a Quote",
+    "sizeLabel": "Size / Type",
+    "categories": {
+      "bouncy-houses": {
+        "title": "Bounce Houses & Combos",
+        "items": {
+          "bounce": {
+            "name": "Bounce Houses",
+            "size": "Standard / Various sizes",
+            "desc": "Classic, spacious inflatable castles, perfect for bouncing around safely."
+          },
+          "combos": {
+            "name": "Wet & Dry Combos",
+            "size": "Large / With slide",
+            "desc": "The ultimate combo featuring a bouncing area and an attached slide for wet or dry fun."
+          }
+        }
+      },
+      "pool-water": {
+        "title": "Water & Foam Fun",
+        "items": {
+          "slides": {
+            "name": "Water Slides",
+            "size": "Various heights",
+            "desc": "Thrilling giant water slides with a splash pool to cool down any summer party."
+          },
+          "foam": {
+            "name": "Foam Party",
+            "size": "Hourly service",
+            "desc": "An incredible experience packed with non-toxic foam and music for everyone."
+          }
+        }
+      },
+      "sillas-mesas": {
+        "title": "Tents, Tables & Chairs",
+        "items": {
+          "tents": {
+            "name": "Tents",
+            "size": "20x20, 20x30 and more",
+            "desc": "Sturdy and elegant canopy tents to shelter your guests from sun or rain."
+          },
+          "tables": {
+            "name": "Tables",
+            "size": "Round & Rectangular",
+            "desc": "Heavy-duty, sanitized tables ready for your venue setup."
+          },
+          "chairs": {
+            "name": "Folding Chairs",
+            "size": "Standard durability",
+            "desc": "Comfortable and clean chairs to accommodate all your guests seamlessly."
+          },
+          "linens": {
+            "name": "Table Linens",
+            "size": "Assorted colors & fabrics",
+            "desc": "Professionally washed and pressed linens to elevate your table styling."
+          }
+        }
+      },
+      "party-add-ons": {
+        "title": "Snacks, Machines & Packages",
+        "items": {
+          "popcorn": {
+            "name": "Popcorn Machine",
+            "size": "Commercial tabletop",
+            "desc": "Fresh, warm movie-theater style popcorn. Includes initial serving supplies."
+          },
+          "cotton": {
+            "name": "Cotton Candy Machine",
+            "size": "Easy to operate",
+            "desc": "Spin sweet, fluffy, melt-in-your-mouth cotton candy that kids love."
+          },
+          "snow": {
+            "name": "Snow Cone Machine",
+            "size": "Fast ice shaver",
+            "desc": "Chilled, flavorful shaved ice treats to beat the summer heat."
+          },
+          "packages": {
+            "name": "Party Packages",
+            "size": "Custom bundles",
+            "desc": "Combine inflatables, furniture, and concession machines for a discounted price."
+          }
+        }
+      }
+    }
   }
-  
 }
