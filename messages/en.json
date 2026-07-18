@@ -139,15 +139,25 @@
       "bouncy-houses": {
         "title": "Bounce Houses & Combos",
         "items": {
-          "bounce": {
-            "name": "Bounce Houses",
-            "size": "Standard / Various sizes",
-            "desc": "Classic, spacious inflatable castles, perfect for bouncing around safely."
+          "bounce1": {
+            "name": "bounce - 1",
+            "size": "Estándar / Varios tamaños",
+            "desc": "Espaciosos castillos inflables clásicos, ideales para saltar con total seguridad."
           },
-          "combos": {
-            "name": "Wet & Dry Combos",
-            "size": "Large / With slide",
-            "desc": "The ultimate combo featuring a bouncing area and an attached slide for wet or dry fun."
+          "bounce2": {
+            "name": "bounce - 2",
+            "size": "Grande / Con tobogán",
+            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          },
+          "bounce3": {
+            "name": "bounce - 3",
+            "size": "Grande / Con tobogán",
+            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          },
+          "bounce4": {
+            "name": "bounce - 4",
+            "size": "Grande / Con tobogán",
+            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
           }
         }
       },
@@ -160,6 +170,11 @@
             "desc": "Thrilling giant water slides with a splash pool to cool down any summer party."
           },
           "foam": {
+            "name": "Foam Party",
+            "size": "Hourly service",
+            "desc": "An incredible experience packed with non-toxic foam and music for everyone."
+          },
+          "video1": {
             "name": "Foam Party",
             "size": "Hourly service",
             "desc": "An incredible experience packed with non-toxic foam and music for everyone."

@@ -9,39 +9,42 @@ interface PageProps {
 export default async function CategoriaDetallePage({ params }: PageProps) {
   const { locale, categoria } = await params;
   
-  // 👇 Pasa el locale explícitamente como segundo argumento:
+  // Pasa el locale explícitamente como segundo argumento:
   const t = await getTranslations({ locale, namespace: 'CategoryDetail' });
 
-  // Mapeo estático de imágenes y precios base que no requieren traducción...
-
-  // Mapeo estático de imágenes y precios base que no requieren traducción
+  // Mapeo estático de imágenes, videos y precios base que no requieren traducción
+  // Hacemos que 'img' y 'video' sean opcionales (?) para soportar ambos formatos
   const BD_IMAGENES_PRECIOS: Record<
     string,
     {
       items: Array<{
         id: string;
         price: string;
-        img: string;
+        img?: string;
+        video?: string;
       }>;
     }
   > = {
     'bouncy-houses': {
       items: [
-        { id: 'bounce', price: '$150+', img: 'https://images.unsplash.com/photo-1572451479139-6a308211d8be?w=600' },
-        { id: 'combos', price: '$220+', img: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600' }
+        { id: 'bounce1', price: '$150+', img: '/inventario/bouncy4.png' },
+        { id: 'bounce2', price: '$220+', img: '/inventario/bouncy2.jpg' },
+        { id: 'bounce3', price: '$220+', img: '/inventario/bouncy3.jpg' },
+        { id: 'bounce4', price: '$220+', img: '/inventario/bouncy1.png' }
       ]
     },
     'pool-water': {
       items: [
-        { id: 'slides', price: '$260+', img: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600' },
-        { id: 'foam', price: '$180+', img: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600' }
+        { id: 'slides', price: '$260+', img: '/inventario/tobogan-agua2.jpg' },
+        { id: 'foam', price: '$180+', img: '/inventario/tobogan-agua1.jpg' },
+        { id: 'video1', price: '$180+', video: '/inventario/video1.MOV' }
       ]
     },
     'sillas-mesas': {
       items: [
         { id: 'tents', price: '$100+', img: '/inventario/tent.jpg' },
         { id: 'tables', price: '$10+', img: '/inventario/mesas.jpg' },
-        { id: 'chairs', price: '$2+', img: '/inventario/folding.jpg' },
+        { id: 'chairs', price: '$2+', img: '/folding.jpg' },
         { id: 'linens', price: '$8+', img: '/inventario/sillas.jpg' }
       ]
     },
@@ -67,7 +70,8 @@ export default async function CategoriaDetallePage({ params }: PageProps) {
     return {
       id: item.id,
       price: item.price,
-      img: item.img,
+      img: item.img || null,     // Mantiene la imagen si existe
+      video: item.video || null, // Agrega soporte para el video si existe
       name: t(`categories.${categoria}.items.${item.id}.name`),
       size: t(`categories.${categoria}.items.${item.id}.size`),
       desc: t(`categories.${categoria}.items.${item.id}.desc`)
@@ -104,9 +108,27 @@ export default async function CategoriaDetallePage({ params }: PageProps) {
               className="bg-white rounded-3xl shadow-md overflow-hidden border border-gray-100 flex flex-col justify-between hover:shadow-lg transition-shadow"
             >
               <div>
-                <div className="h-56 bg-gray-100 relative">
-                  <img src={item.img} alt={item.name} className="w-full h-full object-cover" />
-                  <div className="absolute top-3 right-3 bg-pink-500 text-white font-extrabold px-3 py-1 rounded-full text-sm shadow-sm">
+                {/* Contenedor multimedia adaptado para detectar Video o Imagen */}
+                <div className="h-56 bg-gray-100 relative overflow-hidden">
+                  {item.video ? (
+                    <video 
+                      src={item.video} 
+                      className="w-full h-full object-cover"
+                      autoPlay 
+                      loop 
+                      muted 
+                      playsInline
+                    />
+                  ) : (
+                    <img 
+                      src={item.img || '/placeholder.jpg'} 
+                      alt={item.name} 
+                      className="w-full h-full object-cover" 
+                    />
+                  )}
+                  
+                  {/* El badge de precio se mantiene visible encima de cualquier formato */}
+                  <div className="absolute top-3 right-3 bg-pink-500 text-white font-extrabold px-3 py-1 rounded-full text-sm shadow-sm z-10">
                     {item.price}
                   </div>
                 </div>

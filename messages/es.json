@@ -139,13 +139,23 @@
       "bouncy-houses": {
         "title": "Castillos Inflables y Combos",
         "items": {
-          "bounce": {
-            "name": "Casas Inflables (Bounce Houses)",
+          "bounce1": {
+            "name": "bounce - 1",
             "size": "Estándar / Varios tamaños",
             "desc": "Espaciosos castillos inflables clásicos, ideales para saltar con total seguridad."
           },
-          "combos": {
-            "name": "Combos Húmedos y Secos (Wet & Dry)",
+          "bounce2": {
+            "name": "bounce - 2",
+            "size": "Grande / Con tobogán",
+            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          },
+          "bounce3": {
+            "name": "bounce - 3",
+            "size": "Grande / Con tobogán",
+            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          },
+          "bounce4": {
+            "name": "bounce - 4",
             "size": "Grande / Con tobogán",
             "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
           }
@@ -163,6 +173,11 @@
             "name": "Fiesta de Espuma (Foam Party)",
             "size": "Servicio por horas",
             "desc": "Una increíble experiencia llena de espuma no tóxica y música para todas las edades."
+          },
+          "video1": {
+            "name": "Foam Party",
+            "size": "Hourly service",
+            "desc": "An incredible experience packed with non-toxic foam and music for everyone."
           }
         }
       },
@@ -185,7 +200,7 @@
             "desc": "Sillas cómodas, limpias y listas para acomodar a tus invitados de forma óptima."
           },
           "linens": {
-            "name": "Mantelería Fina",
+            "name": "Mantelería Finage",
             "size": "Varios colores y telas",
             "desc": "Manteles lavados y planchados profesionalmente para vestir tus mesas con elegancia."
           }
