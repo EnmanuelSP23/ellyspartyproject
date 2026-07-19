@@ -27,32 +27,32 @@ export default async function CategoriaDetallePage({ params }: PageProps) {
   > = {
     'bouncy-houses': {
       items: [
-        { id: 'bounce1', price: '$150+', img: '/inventario/bouncy4.png' },
-        { id: 'bounce2', price: '$220+', img: '/inventario/bouncy2.jpg' },
-        { id: 'bounce3', price: '$220+', img: '/inventario/bouncy3.jpg' },
-        { id: 'bounce4', price: '$220+', img: '/inventario/bouncy1.png' }
+        { id: 'bounce1', price: '$0', img: '/inventario/bouncy4.png' },
+        { id: 'bounce2', price: '$0', img: '/inventario/bouncy2.jpg' },
+        { id: 'bounce3', price: '$0', img: '/inventario/bouncy3.jpg' },
+        { id: 'bounce4', price: '$0', img: '/inventario/bouncy1.png' }
       ]
     },
     'pool-water': {
       items: [
-        { id: 'slides', price: '$260+', img: '/inventario/tobogan-agua2.jpg' },
-        { id: 'foam', price: '$180+', img: '/inventario/tobogan-agua1.jpg' },
-        { id: 'video1', price: '$180+', video: '/inventario/video1.MOV' }
+        { id: 'slides', price: '$0', img: '/inventario/tobogan-agua2.jpg' },
+        { id: 'foam', price: '$0', img: '/inventario/tobogan-agua1.jpg' },
+        { id: 'video1', price: '$0', video: '/inventario/video1.MOV' }
       ]
     },
     'sillas-mesas': {
       items: [
-        { id: 'tents', price: '$100+', img: '/inventario/tent.jpg' },
-        { id: 'tables', price: '$10+', img: '/inventario/mesas.jpg' },
-        { id: 'chairs', price: '$2+', img: '/folding.jpg' },
-        { id: 'linens', price: '$8+', img: '/inventario/sillas.jpg' }
+        { id: 'tents', price: '$0', img: '/inventario/tent.jpg' },
+        { id: 'tables', price: '$0', img: '/inventario/mesas.jpg' },
+        { id: 'chairs', price: '$0', img: '/folding.jpg' },
+        { id: 'linens', price: '$0', img: '/inventario/Sillas.jpg' }
       ]
     },
     'party-add-ons': {
       items: [
-        { id: 'popcorn', price: '$60+', img: 'https://images.unsplash.com/photo-1569871175133-c8651f8a70c8?w=600' },
-        { id: 'cotton', price: '$60+', img: 'https://images.unsplash.com/photo-1505935428862-770b6f24f629?w=600' },
-        { id: 'snow', price: '$60+', img: 'https://images.unsplash.com/photo-1495147412217-90c41be36562?w=600' },
+        { id: 'popcorn', price: '$0', img: 'https://images.unsplash.com/photo-1569871175133-c8651f8a70c8?w=600' },
+        { id: 'cotton', price: '$0', img: 'https://images.unsplash.com/photo-1505935428862-770b6f24f629?w=600' },
+        { id: 'snow', price: '$0', img: 'https://images.unsplash.com/photo-1495147412217-90c41be36562?w=600' },
         { id: 'packages', price: 'Promo', img: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600' }
       ]
     }
