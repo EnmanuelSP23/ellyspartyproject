@@ -139,70 +139,85 @@
       "bouncy-houses": {
         "title": "Castillos Inflables y Combos",
         "items": {
-          "bounce1": {
-            "name": "bounce - 1",
-            "size": "Estándar / Varios tamaños",
-            "desc": "Espaciosos castillos inflables clásicos, ideales para saltar con total seguridad."
+          "princess": {
+            "name": "Princess Bounce House",
+            "size": "13 ft L x 13 ft W x 15 ft H (4.0 m x 4.0 m x 4.6 m)",
+            "desc": "Inflable castillo de princesas en tonos rosa, morado y celeste, ideal para fiestas infantiles y eventos temáticos."
           },
-          "bounce2": {
-            "name": "bounce - 2",
-            "size": "Grande / Con tobogán",
-            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          "unicorn": {
+            "name": "Unicorn Bounce House",
+            "size": "13 ft L x 13 ft W x 11 ft H (Aprox.)",
+            "desc": "Inflable temático de unicornio con área amplia para rebotar, tobogán, piscina de pelotas (modo seco) o alberca de agua. Incluye soplador y estacas."
           },
-          "bounce3": {
-            "name": "bounce - 3",
-            "size": "Grande / Con tobogán",
-            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          "colorful": {
+            "name": "Colorful Bounce House",
+            "size": "13 ft L x 13 ft W x 11 ft H (Aprox.)",
+            "desc": "Inflable multicolor seguro y duradero con área amplia para rebotar y tobogán frontal. Funciona en seco o con agua. Incluye soplador de aire."
           },
-          "bounce4": {
-            "name": "bounce - 4",
-            "size": "Grande / Con tobogán",
-            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          "crayon": {
+            "name": "Color Crayon Bounce House",
+            "size": "15 ft L x 13 ft W x 12 ft H (4.6 m x 4.0 m x 3.7 m) / Cap. 800 lbs",
+            "desc": "Inflable con diseño vistoso en forma de crayones de colores, ideal para fiestas infantiles al aire libre."
+          },
+          "pink": {
+            "name": "Pink Bounce House (Cloud9)",
+            "size": "13 ft L x 13 ft W x 15 ft H (4.0 m x 4.0 m x 4.6 m)",
+            "desc": "Castillo inflable rosa de estructura abierta con malla de seguridad y torres de castillo."
+          },
+          "white": {
+            "name": "White Bounce House",
+            "size": "13 ft L x 13 ft W x 11 ft H (Aprox.)",
+            "desc": "Inflable elegante color blanco estilo castillo. Ideal para bodas, bautizos y cumpleaños. Área amplia para rebotar. Incluye soplador de aire."
           }
         }
       },
       "pool-water": {
         "title": "Diversión de Agua y Espuma",
         "items": {
-          "slides": {
-            "name": "Toboganes de Agua (Water Slides)",
-            "size": "Alturas variables",
-            "desc": "Toboganes gigantes con alberca de agua para refrescar los días más calurosos."
+          "double-slide": {
+            "name": "Double Lane Water Slide",
+            "size": "23 ft L x 11 ft W x 15 ft H (7.0 m x 3.3 m x 4.6 m)",
+            "desc": "Tobogán de agua inflable con doble carril y alberca/piscina integrada en la base. Perfecto para eventos de verano."
           },
-          "foam": {
-            "name": "Fiesta de Espuma (Foam Party)",
-            "size": "Servicio por horas",
-            "desc": "Una increíble experiencia llena de espuma no tóxica y música para todas las edades."
+          "foam-machine": {
+            "name": "Máquina de Espuma (Foam Machine)",
+            "size": "Unidad individual",
+            "desc": "Máquina de espuma de alta potencia que genera grandes volúmenes de espuma. Fácil de configurar, apta para todas las edades."
           },
-          "video1": {
-            "name": "Foam Party",
-            "size": "Hourly service",
-            "desc": "An incredible experience packed with non-toxic foam and music for everyone."
+          "pool-party": {
+            "name": "Pool Party (Combo Espuma + Inflable)",
+            "size": "Paquete completo",
+            "desc": "Paquete completo que incluye la máquina de espuma de alta potencia junto con el inflable de tobogán con alberca. Experiencia de fiesta acuática con espuma."
           }
         }
       },
       "sillas-mesas": {
         "title": "Carpas, Mesas y Sillas",
         "items": {
-          "tents": {
-            "name": "Carpas",
-            "size": "20x20, 20x30 y más",
-            "desc": "Estructuras elegantes y resistentes para proteger a tus invitados del sol o la lluvia."
+          "tent": {
+            "name": "Carpa 10x20 (Tent)",
+            "size": "10 ft W x 20 ft L",
+            "desc": "Carpa/toldo grande color blanco con paredes laterales y ventanas integradas estilo catedral. Incluye servicio de armado e instalación."
           },
-          "tables": {
-            "name": "Mesas de Banquete",
-            "size": "Redondas y Rectangulares",
-            "desc": "Mesas sólidas e higienizadas listas para la distribución de tu banquete."
+          "round-tables": {
+            "name": "Mesas Redondas (Round Tables)",
+            "size": "60\" de diámetro (5 ft)",
+            "desc": "Mesas redondas para eventos con capacidad estándar para invitados."
           },
           "chairs": {
             "name": "Sillas Plegables",
             "size": "Resistencia estándar",
             "desc": "Sillas cómodas, limpias y listas para acomodar a tus invitados de forma óptima."
           },
-          "linens": {
-            "name": "Mantelería Finage",
-            "size": "Varios colores y telas",
-            "desc": "Manteles lavados y planchados profesionalmente para vestir tus mesas con elegancia."
+          "chafing-dish": {
+            "name": "Bufetera (Chafing Dish)",
+            "size": "Acero inoxidable",
+            "desc": "Bufetera de acero inoxidable para mantener la comida caliente. Incluye bandeja para comida, bandeja para agua, soportes para combustible y tapa."
+          },
+          "ladder-display": {
+            "name": "Estantería Escalera (Ladder Display)",
+            "size": "5 repisas / Madera blanca",
+            "desc": "Estantería estilo escalera de madera blanca con 5 repisas amplias. Perfecto para exhibir bolsas de regalos, recuerdos o postres."
           }
         }
       },
@@ -210,7 +225,7 @@
         "title": "Snacks, Máquinas y Paquetes",
         "items": {
           "popcorn": {
-            "name": "Máquina de Palomitas (Popcorn)",
+            "name": "Máquina de Palomitas (Popcorn Machine)",
             "size": "Modelo comercial / de mesa",
             "desc": "Palomitas calientes y frescas con el aroma clásico del cine. Incluye insumos iniciales."
           },
@@ -228,6 +243,26 @@
             "name": "Paquetes de Fiesta (Party Packages)",
             "size": "Personalizado",
             "desc": "Combina inflables, mobiliario y máquinas de snacks a un precio especial con descuento."
+          },
+          "gold-easel": {
+            "name": "Caballete Dorado (Gold Easel Stand)",
+            "size": "Metálico / Acabado dorado",
+            "desc": "Caballete/atril metálico resistente con elegante acabado dorado. Diseñado para sostener letreros, cuadros de bienvenida y marcos decorativos."
+          },
+          "cake-stand": {
+            "name": "Base Baja para Pasteles (Low Cake Stand)",
+            "size": "Individual",
+            "desc": "Base/soporte bajo para pasteles, cupcakes, galletas y postres. Diseño elegante, alta calidad, resistente y fácil de limpiar."
+          },
+          "wooden-arch": {
+            "name": "Arco de Madera con Telas (Wooden Arch Backdrop)",
+            "size": "Varios colores disponibles",
+            "desc": "Arco de madera rústico decorado con telas drapes y arreglos florales superiores. Perfecto para bodas, sesiones fotográficas y eventos especiales."
+          },
+          "pedestals": {
+            "name": "Cilindros/Pedestales Decorativos (Set de 3)",
+            "size": "31.5\" / 23.6\" / 15.7\" H",
+            "desc": "Cilindros/pedestales blancos decorativos para colocar pasteles, arreglos florales y decoraciones. Incluye cubiertas. Apto para interior y exterior."
           }
         }
       }

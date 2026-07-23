@@ -139,70 +139,85 @@
       "bouncy-houses": {
         "title": "Bounce Houses & Combos",
         "items": {
-          "bounce1": {
-            "name": "bounce - 1",
-            "size": "Estándar / Varios tamaños",
-            "desc": "Espaciosos castillos inflables clásicos, ideales para saltar con total seguridad."
+          "princess": {
+            "name": "Princess Bounce House",
+            "size": "13 ft L x 13 ft W x 15 ft H (4.0 m x 4.0 m x 4.6 m)",
+            "desc": "Inflatable princess castle in pink, purple, and blue tones, perfect for children's parties and themed events."
           },
-          "bounce2": {
-            "name": "bounce - 2",
-            "size": "Grande / Con tobogán",
-            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          "unicorn": {
+            "name": "Unicorn Bounce House",
+            "size": "13 ft L x 13 ft W x 11 ft H (Approx.)",
+            "desc": "Inflatable unicorn-themed bounce house with jumping area, slide, ball pit (dry mode) or water pool. Includes blower and stakes."
           },
-          "bounce3": {
-            "name": "bounce - 3",
-            "size": "Grande / Con tobogán",
-            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          "colorful": {
+            "name": "Colorful Bounce House",
+            "size": "13 ft L x 13 ft W x 11 ft H (Approx.)",
+            "desc": "Safe and durable multi-colored inflatable with large jumping area and front slide. Works dry or with water. Includes air blower."
           },
-          "bounce4": {
-            "name": "bounce - 4",
-            "size": "Grande / Con tobogán",
-            "desc": "La combinación perfecta: área de salto y tobogán integrado para usar seco o con agua."
+          "crayon": {
+            "name": "Color Crayon Bounce House",
+            "size": "15 ft L x 13 ft W x 12 ft H (4.6 m x 4.0 m x 3.7 m) / Cap. 800 lbs",
+            "desc": "Vibrant crayon-shaped inflatable, ideal for outdoor children's parties and colorful events."
+          },
+          "pink": {
+            "name": "Pink Bounce House (Cloud9)",
+            "size": "13 ft L x 13 ft W x 15 ft H (4.0 m x 4.0 m x 4.6 m)",
+            "desc": "Pink inflatable castle with open structure, safety mesh, and castle towers."
+          },
+          "white": {
+            "name": "White Bounce House",
+            "size": "13 ft L x 13 ft W x 11 ft H (Approx.)",
+            "desc": "Elegant white castle-style inflatable. Perfect for weddings, baptisms, and birthdays. Large jumping area. Includes air blower."
           }
         }
       },
       "pool-water": {
         "title": "Water & Foam Fun",
         "items": {
-          "slides": {
-            "name": "Water Slides",
-            "size": "Various heights",
-            "desc": "Thrilling giant water slides with a splash pool to cool down any summer party."
+          "double-slide": {
+            "name": "Double Lane Water Slide",
+            "size": "23 ft L x 11 ft W x 15 ft H (7.0 m x 3.3 m x 4.6 m)",
+            "desc": "Inflatable water slide with double lane and integrated pool at the base. Perfect for summer events."
           },
-          "foam": {
-            "name": "Foam Party",
-            "size": "Hourly service",
-            "desc": "An incredible experience packed with non-toxic foam and music for everyone."
+          "foam-machine": {
+            "name": "Foam Machine",
+            "size": "Single unit",
+            "desc": "High-power foam machine that generates large volumes of foam. Easy to set up, suitable for all ages."
           },
-          "video1": {
-            "name": "Foam Party",
-            "size": "Hourly service",
-            "desc": "An incredible experience packed with non-toxic foam and music for everyone."
+          "pool-party": {
+            "name": "Pool Party (Foam + Inflatable Combo)",
+            "size": "Complete package",
+            "desc": "Full package including the high-power foam machine plus the inflatable water slide with pool. Ultimate water and foam party experience."
           }
         }
       },
       "sillas-mesas": {
         "title": "Tents, Tables & Chairs",
         "items": {
-          "tents": {
-            "name": "Tents",
-            "size": "20x20, 20x30 and more",
-            "desc": "Sturdy and elegant canopy tents to shelter your guests from sun or rain."
+          "tent": {
+            "name": "10x20 Tent",
+            "size": "10 ft W x 20 ft L",
+            "desc": "Large white tent with side walls and cathedral-style integrated windows. Includes setup and installation service."
           },
-          "tables": {
-            "name": "Tables",
-            "size": "Round & Rectangular",
-            "desc": "Heavy-duty, sanitized tables ready for your venue setup."
+          "round-tables": {
+            "name": "Round Tables",
+            "size": "60\" diameter (5 ft)",
+            "desc": "Round event tables with standard guest capacity."
           },
           "chairs": {
             "name": "Folding Chairs",
             "size": "Standard durability",
             "desc": "Comfortable and clean chairs to accommodate all your guests seamlessly."
           },
-          "linens": {
-            "name": "Table Linens",
-            "size": "Assorted colors & fabrics",
-            "desc": "Professionally washed and pressed linens to elevate your table styling."
+          "chafing-dish": {
+            "name": "Chafing Dish",
+            "size": "Stainless steel",
+            "desc": "Stainless steel chafing dish to keep food warm. Includes food pan, water pan, fuel holders, and lid."
+          },
+          "ladder-display": {
+            "name": "Ladder Display Shelf",
+            "size": "5 shelves / White wood",
+            "desc": "White wooden ladder-style display shelf with 5 spacious shelves. Perfect for showcasing goodie bags, favors, or desserts."
           }
         }
       },
@@ -228,6 +243,26 @@
             "name": "Party Packages",
             "size": "Custom bundles",
             "desc": "Combine inflatables, furniture, and concession machines for a discounted price."
+          },
+          "gold-easel": {
+            "name": "Gold Easel Stand",
+            "size": "Metallic / Gold finish",
+            "desc": "Sturdy metallic easel/stand with an elegant gold finish. Designed to securely hold signs, welcome boards, and decorative frames."
+          },
+          "cake-stand": {
+            "name": "Low Cake Stand",
+            "size": "Single unit",
+            "desc": "Low stand for cakes, cupcakes, cookies, and desserts. Elegant design, high quality, durable, and easy to clean."
+          },
+          "wooden-arch": {
+            "name": "Wooden Arch Backdrop with Drapes",
+            "size": "Multiple colors available",
+            "desc": "Rustic wooden arch decorated with drape fabrics and top floral arrangements. Perfect for weddings, photo shoots, and special events."
+          },
+          "pedestals": {
+            "name": "Decorative Cylindrical Pedestals (Set of 3)",
+            "size": "31.5\" / 23.6\" / 15.7\" H",
+            "desc": "White decorative cylinders/pedestals for displaying cakes, floral arrangements, and decor. Includes covers. Suitable for indoor and outdoor use."
           }
         }
       }
