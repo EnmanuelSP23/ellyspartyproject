@@ -15,13 +15,13 @@ export default async function ServiciosPage({ params }: ServiciosPageProps) {
       id: 'bouncy-houses',
       title: t('categories.bouncy.title'),
       desc: t('categories.bouncy.desc'),
-      img: '/inventario/tobogan2.jpg'
+      img: '/inventario/colorful.jpg'
     },
     {
       id: 'pool-water',
       title: t('categories.water.title'),
       desc: t('categories.water.desc'),
-      img: '/inventario/tobogan-a1.jpg'
+      img: '/inventario/doublelane.jpg'
     },
     {
       id: 'sillas-mesas',
