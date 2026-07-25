@@ -28,39 +28,37 @@ export default async function CategoriaDetallePage({ params }: PageProps) {
     'bouncy-houses': {
       items: [
         { id: 'princess', price: '$150', img: '/inventario/bouncy4.png' },
-        { id: 'unicorn', price: '$140', img: '/inventario/bouncy2.jpg' },
-        { id: 'colorful', price: '$150', img: '/inventario/bouncy3.jpg' },
-        { id: 'crayon', price: '$150', img: '/inventario/bouncy1.png' },
-        { id: 'pink', price: '$135', img: '/inventario/tobogan1-a.jpg' },
-        { id: 'white', price: '$135', img: '/inventario/IMG_5915.png' }
+        { id: 'unicorn', price: '$140', img: '/inventario/unicorn.jpg' },
+        { id: 'colorful', price: '$150', img: '/inventario/colorful.jpg' },
+        { id: 'crayon', price: '$150', img: '/inventario/crayon.jpg' },
+        { id: 'pink', price: '$135', img: '/inventario/pinkbounce.jpg' },
+        { id: 'white', price: '$135', img: '/inventario/whitebounce.jpg' }
       ]
     },
     'pool-water': {
       items: [
-        { id: 'double-slide', price: '$250', img: '/inventario/tobogan-agua2.jpg' },
-        { id: 'foam-machine', price: '$250', img: '/inventario/tobogan-agua1.jpg' },
-        { id: 'pool-party', price: '$400', img: '/inventario/video1.mov' }
+        { id: 'double-slide', price: '$250', img: '/inventario/doublelane.jpg' },
+        { id: 'pool-party', price: '$400', img: '/inventario/poolparty.jpg' }
       ]
     },
     'sillas-mesas': {
       items: [
         { id: 'tent', price: '$350', img: '/inventario/tent.jpg' },
-        { id: 'round-tables', price: '$20', img: '/inventario/mesas.jpg' },
-        { id: 'chairs', price: '$0', img: '/inventario/folding.jpg' },
-        { id: 'chafing-dish', price: '$20', img: '/inventario/Sillas.jpg' },
-        { id: 'ladder-display', price: '$35', img: '/inventario/IMG_5353.jpg' }
+        { id: 'round-tables', price: '$20', img: '/inventario/mesasredondas.jpg' },
+        { id: 'chairs', price: '$3', img: '/inventario/folding.jpg' },
+        { id: 'chafing-dish', price: '$20', img: '/inventario/chafindish.jpg' },
+        { id: 'ladder-display', price: '$35', img: '/inventario/ladder.jpg' }
       ]
     },
     'party-add-ons': {
       items: [
-        { id: 'popcorn', price: '$0', img: '/inventario/maquinas.jpg' },
-        { id: 'cotton', price: '$0', img: '/inventario/IMG_5932.jpg' },
-        { id: 'snow', price: '$0', img: '/inventario/IMG_5940.png' },
+        { id: 'popcorn', price: '$60', img: '/inventario/popcorn.jpg' },
+        { id: 'cotton', price: '$60', img: '/inventario/cotton.jpg' },
         { id: 'packages', price: 'Promo', img: '/inventario/IMG_5374.jpg' },
-        { id: 'gold-easel', price: '$20', img: '/inventario/IMG_5176.heic' },
-        { id: 'cake-stand', price: '$10', img: '/inventario/IMG_5178.heic' },
-        { id: 'wooden-arch', price: '$150', img: '/inventario/IMG_5316.heic' },
-        { id: 'pedestals', price: '$50', img: '/inventario/IMG_5350.PNG' }
+        { id: 'gold-easel', price: '$20', img: '/inventario/goldeasel.jpg' },
+        { id: 'cake-stand', price: '$10', img: '/inventario/cakestand.jpg' },
+        { id: 'wooden-arch', price: '$150', img: '/inventario/woodenarc.jpg' },
+        { id: 'pedestals', price: '$50', img: '/inventario/cilindro.jpg' }
       ]
     }
   };

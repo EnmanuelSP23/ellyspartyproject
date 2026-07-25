@@ -10,6 +10,10 @@ interface LayoutProps {
   params: Promise<{ locale: string }>;
 }
 
+export const metadata = {
+  manifest: '/manifest.json',
+}
+
 export default async function LocaleLayout({ children, params }: LayoutProps) {
   // 1. Resolvemos la promesa de params usando await antes de usar "locale"
   const resolvedParams = await params;

@@ -207,7 +207,8 @@
           "chairs": {
             "name": "Folding Chairs",
             "size": "Standard durability",
-            "desc": "Comfortable and clean chairs to accommodate all your guests seamlessly."
+            "desc": "Comfortable and clean chairs to accommodate all your guests seamlessly. $3 Each, $2 each after 30"
+            
           },
           "chafing-dish": {
             "name": "Chafing Dish",
@@ -233,11 +234,6 @@
             "name": "Cotton Candy Machine",
             "size": "Easy to operate",
             "desc": "Spin sweet, fluffy, melt-in-your-mouth cotton candy that kids love."
-          },
-          "snow": {
-            "name": "Snow Cone Machine",
-            "size": "Fast ice shaver",
-            "desc": "Chilled, flavorful shaved ice treats to beat the summer heat."
           },
           "packages": {
             "name": "Party Packages",

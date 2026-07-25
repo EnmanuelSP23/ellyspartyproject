@@ -179,11 +179,6 @@
             "size": "23 ft L x 11 ft W x 15 ft H (7.0 m x 3.3 m x 4.6 m)",
             "desc": "Tobogán de agua inflable con doble carril y alberca/piscina integrada en la base. Perfecto para eventos de verano."
           },
-          "foam-machine": {
-            "name": "Máquina de Espuma (Foam Machine)",
-            "size": "Unidad individual",
-            "desc": "Máquina de espuma de alta potencia que genera grandes volúmenes de espuma. Fácil de configurar, apta para todas las edades."
-          },
           "pool-party": {
             "name": "Pool Party (Combo Espuma + Inflable)",
             "size": "Paquete completo",
@@ -207,7 +202,7 @@
           "chairs": {
             "name": "Sillas Plegables",
             "size": "Resistencia estándar",
-            "desc": "Sillas cómodas, limpias y listas para acomodar a tus invitados de forma óptima."
+            "desc": "Sillas cómodas, limpias y listas para acomodar a tus invitados de forma óptima. $3 cada silla, $2 despues de 30."
           },
           "chafing-dish": {
             "name": "Bufetera (Chafing Dish)",
@@ -233,11 +228,6 @@
             "name": "Máquina de Algodón de Azúcar",
             "size": "Fácil de operar",
             "desc": "Prepara algodones de azúcar suaves y dulces que fascinarán a los niños."
-          },
-          "snow": {
-            "name": "Máquina de Raspados (Snow Cone)",
-            "size": "Hielo triturado rápido",
-            "desc": "Refrescantes raspados de sabores ideales para complementar los días de verano."
           },
           "packages": {
             "name": "Paquetes de Fiesta (Party Packages)",
