@@ -4,6 +4,26 @@ interface AboutPageProps {
   params: Promise<{ locale: string }>;
 }
 
+export async function generateMetadata({ params }: AboutPageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'About' });
+  return {
+    title: t('title'),
+    description: t('description'),
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+    },
+    alternates: {
+      canonical: `https://ellyspartyrental.com/${locale}/sobre-nosotros`,
+      languages: {
+        en: 'https://ellyspartyrental.com/en/sobre-nosotros',
+        es: 'https://ellyspartyrental.com/es/sobre-nosotros',
+      },
+    },
+  };
+}
+
 export default async function AboutPage({ params }: AboutPageProps) {
   const { locale } = await params;
   const t = await getTranslations('About'); // Carga el bloque "About"

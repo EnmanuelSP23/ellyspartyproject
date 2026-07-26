@@ -6,6 +6,26 @@ interface ServiciosPageProps {
   params: Promise<{ locale: string }>;
 }
 
+export async function generateMetadata({ params }: ServiciosPageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Services' });
+  return {
+    title: t('title'),
+    description: t('subtitle'),
+    openGraph: {
+      title: t('title'),
+      description: t('subtitle'),
+    },
+    alternates: {
+      canonical: `https://ellyspartyrental.com/${locale}/servicios`,
+      languages: {
+        en: 'https://ellyspartyrental.com/en/servicios',
+        es: 'https://ellyspartyrental.com/es/servicios',
+      },
+    },
+  };
+}
+
 export default async function ServiciosPage({ params }: ServiciosPageProps) {
   const { locale } = await params;
   const t = await getTranslations('Services');

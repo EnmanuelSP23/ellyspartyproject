@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Elly's Party Rental",
+  "short_name": "EPR",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

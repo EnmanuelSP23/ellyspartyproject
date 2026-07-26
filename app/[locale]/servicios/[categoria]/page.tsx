@@ -6,6 +6,27 @@ interface PageProps {
   params: Promise<{ locale: string; categoria: string }>;
 }
 
+export async function generateMetadata({ params }: PageProps) {
+  const { locale, categoria } = await params;
+  const t = await getTranslations({ locale, namespace: 'CategoryDetail' });
+  const title = t(`categories.${categoria}.title`);
+  return {
+    title,
+    description: t('subtitle'),
+    openGraph: {
+      title,
+      description: t('subtitle'),
+    },
+    alternates: {
+      canonical: `https://ellyspartyrental.com/${locale}/servicios/${categoria}`,
+      languages: {
+        en: `https://ellyspartyrental.com/en/servicios/${categoria}`,
+        es: `https://ellyspartyrental.com/es/servicios/${categoria}`,
+      },
+    },
+  };
+}
+
 export default async function CategoriaDetallePage({ params }: PageProps) {
   const { locale, categoria } = await params;
   

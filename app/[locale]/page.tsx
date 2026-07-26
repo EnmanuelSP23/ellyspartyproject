@@ -6,6 +6,27 @@ interface HomePageProps {
   params: Promise<{ locale: string }>;
 }
 
+export async function generateMetadata({ params }: HomePageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Hero' });
+  const tWelcome = await getTranslations({ locale, namespace: 'Welcome' });
+  return {
+    title: 'Party Rentals in Massachusetts',
+    description: t('badge'),
+    openGraph: {
+      title: tWelcome('title'),
+      description: t('badge'),
+    },
+    alternates: {
+      canonical: `https://ellyspartyrental.com/${locale}`,
+      languages: {
+        en: 'https://ellyspartyrental.com/en',
+        es: 'https://ellyspartyrental.com/es',
+      },
+    },
+  };
+}
+
 export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;
   const tFaq = await getTranslations('Faq');
@@ -21,7 +42,7 @@ export default async function HomePage({ params }: HomePageProps) {
       <section className="relative w-full bg-gray-900 text-white py-32 px-4 text-center overflow-hidden">
         <Image 
           src="/inventario/tobogan1-a.jpg"
-          alt="Hero Background" 
+          alt="Elly's Party Rental bounce houses and party equipment setup in Massachusetts" 
           fill 
           priority 
           className="object-cover opacity-40 object-center pointer-events-none"

@@ -1,5 +1,29 @@
 import { getTranslations } from 'next-intl/server';
 
+interface ContactoPageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: ContactoPageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'ContactPage' });
+  return {
+    title: t('title'),
+    description: t('subtitle'),
+    openGraph: {
+      title: t('title'),
+      description: t('subtitle'),
+    },
+    alternates: {
+      canonical: `https://ellyspartyrental.com/${locale}/contacto`,
+      languages: {
+        en: 'https://ellyspartyrental.com/en/contacto',
+        es: 'https://ellyspartyrental.com/es/contacto',
+      },
+    },
+  };
+}
+
 export default async function ContactoPage() {
   // Cargamos los dos bloques de traducciones necesarios
   const tContact = await getTranslations('ContactPage');
