@@ -168,6 +168,21 @@
             "name": "White Bounce House",
             "size": "13 ft L x 13 ft W x 11 ft H (Approx.)",
             "desc": "Elegant white castle-style inflatable. Perfect for weddings, baptisms, and birthdays. Large jumping area. Includes air blower."
+          },
+          "bounceland": {
+            "name": "Bounceland Bounce House (Red, Blue & Yellow)",
+            "size": "13 ft L x 13 ft W x 12 ft H",
+            "desc": "Primary-colored inflatable (red, blue & yellow) with shaded roof and front slide. Includes blower; setup & pickup available. Clean, safe, durable material. Great for birthdays and kids' events."
+          },
+          "bounce-1": {
+            "name": "Bounce Orange, Blue & Yellow",
+            "size": "142.5\" L x 107.5\" W x 92.5\" H / Base: 83\" x 83\"",
+            "desc": "Compact colorful inflatable in orange, blue & yellow, with castle towers, side netting, and front ramps/slide. Includes blower. Safe, durable, and clean. Perfect for medium spaces and kids' parties."
+          },
+          "soft-play": {
+            "name": "Soft Play Set",
+            "size": "Complete set",
+            "desc": "Soft play area for babies & toddlers. Includes ball pit, foam climber & stairs, soft foam shapes & blocks, and pastel play mat. Safe, padded, and clean. Great for birthdays, kids' events, and family gatherings."
           }
         }
       },

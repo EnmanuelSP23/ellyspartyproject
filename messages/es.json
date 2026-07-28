@@ -168,6 +168,21 @@
             "name": "White Bounce House",
             "size": "13 ft L x 13 ft W x 11 ft H (Aprox.)",
             "desc": "Inflable elegante color blanco estilo castillo. Ideal para bodas, bautizos y cumpleaños. Área amplia para rebotar. Incluye soplador de aire."
+          },
+          "bounceland": {
+            "name": "Bounceland Bounce House (Rojo, Azul & Amarillo)",
+            "size": "13 ft L x 13 ft W x 12 ft H",
+            "desc": "Inflable de colores primarios (rojo, azul, amarillo) con techo sombreado y tobogán frontal. Incluye soplador; instalación y recogida disponibles. Material seguro, limpio y duradero. Ideal para cumpleaños y eventos infantiles."
+          },
+          "bounce-1": {
+            "name": "Bounce Naranja, Azul & Amarillo",
+            "size": "142.5\" L x 107.5\" W x 92.5\" H / Base: 83\" x 83\"",
+            "desc": "Inflable compacto colorido en naranja, azul y amarillo, con torres, malla lateral y rampas/tobogán frontal. Incluye soplador. Seguro, duradero y limpio. Perfecto para espacios medianos y fiestas infantiles."
+          },
+          "soft-play": {
+            "name": "Soft Play Set (Área de Juego Blanda)",
+            "size": "Set completo",
+            "desc": "Área de juego blanda para bebés y niños pequeños. Incluye piscina de pelotas, escaladora de espuma, figuras y bloques suaves, y tapete pastel. Entorno seguro, acolchado y limpio. Ideal para cumpleaños, eventos infantiles y reuniones familiares."
           }
         }
       },

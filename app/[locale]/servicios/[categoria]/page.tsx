@@ -53,7 +53,10 @@ export default async function CategoriaDetallePage({ params }: PageProps) {
         { id: 'colorful', price: '$150', img: '/inventario/colorful.jpg' },
         { id: 'crayon', price: '$150', img: '/inventario/crayon.jpg' },
         { id: 'pink', price: '$135', img: '/inventario/pinkbounce.jpg' },
-        { id: 'white', price: '$135', img: '/inventario/whitebounce.jpg' }
+        { id: 'white', price: '$135', img: '/inventario/whitebounce.jpg' },
+        { id: 'bounceland', price: '$140', img: '/inventario/bounceh1.jpg' },
+        { id: 'bounce-1', price: '$100', img: '/inventario/oby.jpg' },
+        { id: 'soft-play', price: '$150', img: '/inventario/softplay.jpg' }
       ]
     },
     'pool-water': {
@@ -75,7 +78,7 @@ export default async function CategoriaDetallePage({ params }: PageProps) {
       items: [
         { id: 'popcorn', price: '$60', img: '/inventario/popcorn.jpg' },
         { id: 'cotton', price: '$60', img: '/inventario/cotton.jpg' },
-        { id: 'packages', price: 'Promo', img: '/inventario/IMG_5374.jpg' },
+        { id: 'packages', price: 'Promo', img: '/inventario/promo.jpg' },
         { id: 'gold-easel', price: '$20', img: '/inventario/goldeasel.jpg' },
         { id: 'cake-stand', price: '$10', img: '/inventario/cakestand.jpg' },
         { id: 'wooden-arch', price: '$150', img: '/inventario/woodenarc.jpg' },
