@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../globals.css"; // Ajustado para subir un nivel ya que ahora está dentro de [locale]
@@ -93,6 +94,9 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
           {children}
           <Footer />
         </NextIntlClientProvider>
+        {process.env.NEXT_PUBLIC_GA_ID ? (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        ) : null}
       </body>
     </html>
   );
